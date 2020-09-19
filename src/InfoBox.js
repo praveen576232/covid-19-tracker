@@ -1,7 +1,7 @@
 import "./InfoBox.css";
 import React from "react";
 import { Card, CardContent, Typography } from "@material-ui/core";
-import { addCommas, numberFormater } from "./utils";
+import {  numberFormater } from "./utils";
 
 function InfoBox({ isRed, active, title, cases, totle, ...props }) {
   return (
