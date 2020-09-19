@@ -1,0 +1,28 @@
+.infobox{
+    flex:1;
+    cursor: pointer;
+}
+.infobox:not(:last-child){
+    margin-right: 15px;
+}
+.infobox_cases{
+    color:#cc1034;
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+.infobox_totle{
+    color: #6c757d;
+    font-weight: 700 !important;
+    font-size: 0.8rem !important;
+    margin-top: 15px !important;
+}
+.infobox--selected{
+    border-top: 10px solid rgb(64, 255, 47);
+}
+.infobox-red{
+    border-color:red
+}
+.text-color-green{
+    color:rgb(64, 255, 47) !important
+}
